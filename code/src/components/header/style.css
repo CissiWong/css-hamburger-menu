@@ -26,8 +26,13 @@ header a {
   transition: all 0.5s ease-in-out;
 }
 
-.hamburger-checkbox {
-  display: none;
+.mobile-menu li {
+  color: #FE3525;
+  font-family: BigJohn;
+  text-decoration: none;
+  padding: 10px;
+  margin-top: 0;
+  list-style: none;
 }
 
 .hamburger-mobile {
@@ -71,13 +76,8 @@ header a {
   z-index: 1;
 }
 
-.mobile-menu li {
-  color: #FE3525;
-  font-family: BigJohn;
-  text-decoration: none;
-  padding: 10px;
-  margin-top: 0;
-  list-style: none;
+.hamburger-checkbox {
+  display: none;
 }
 
 .hamburger-checkbox:checked + .mobile-menu {
