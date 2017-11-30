@@ -23,7 +23,7 @@ header a {
   width: 50%;
   position: absolute;
   top: -50%;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .hamburger-checkbox {
@@ -31,11 +31,44 @@ header a {
 }
 
 .hamburger-mobile {
-  height: 75px;
   width: 75px;
-  background: #FE3525;
+  height: 75px;
+  background: #FFDFE7;
   display: block;
   cursor: pointer;
+  position: relative;
+}
+
+#bar-one {
+  background: black;
+  width: 35px;
+  height: 5px;
+  position: absolute;
+  top: 47px;
+  right: 0;
+  bottom: 0;
+  left: 20px;
+  z-index: 1;
+}
+
+#bar-two {
+  background: black;
+  width: 35px;
+  height: 5px;
+  top: 35px;
+  left: 20px;
+  position: absolute;
+  z-index: 1;
+  }
+
+#bar-three {
+  background: black;
+  width: 35px;
+  height: 5px;
+  top: 23px;
+  left: 20px;
+  position: absolute;
+  z-index: 1;
 }
 
 .mobile-menu li {

@@ -9,7 +9,11 @@ class Header extends React.Component {
     return (
       <header>
 
-        <label className="hamburger-mobile" htmlFor="hamburger-menu" />
+        <label className="hamburger-mobile" htmlFor="hamburger-menu">
+          <div className="bars" id="bar-one" />
+          <div className="bars" id="bar-two" />
+          <div className="bars" id="bar-three" />
+        </label>
         <input className="hamburger-checkbox" id="hamburger-menu" type="checkbox" />
         <ul className="mobile-menu">
           <li href="http://technigo.io">Technigo</li>
